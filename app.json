@@ -1,0 +1,24 @@
+{
+  "id": "290a4c53-60c2-4ed6-a96a-a9089b25dcfd",
+  "name": "Netting",
+  "publisher": "Everest",
+  "brief": "",
+  "target":"Internal",
+  "description": "",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "idRange": {
+    "from": 50000,
+    "to": 50149
+  }
+}
