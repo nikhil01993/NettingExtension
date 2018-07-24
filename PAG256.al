@@ -10,7 +10,7 @@ pageextension 50005 Payment_Journal_Net extends "Payment Journal"
                             SVE='Importera Netting';
                 Image = Import;
                 Promoted = true;
-                PromotedCategory = "Report";
+                PromotedCategory = "Process";
             }
         }       
     }

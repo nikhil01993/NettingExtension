@@ -12,7 +12,7 @@ pageextension 50004 Cash_Receipt_Journal_Ext extends "Cash Receipt Journal"
                             SVE='Importera Netting';
                 Image = Import;
                 Promoted = true;
-                PromotedCategory = "Report";
+                PromotedCategory = "Process";
             }            
         }
     }
