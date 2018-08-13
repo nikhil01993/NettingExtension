@@ -4,6 +4,7 @@ tableextension 50001 Vendor_Net extends Vendor
     {
         field(50121;Netting;Boolean)
         {
+            CaptionML = ENU= 'Netting' , SVE= 'Netting'; 
             Description = 'Netting_Ext';
         }
     }
