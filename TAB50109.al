@@ -16,11 +16,13 @@ table 50109 "Netting Setup"
         }
         field(3;"Customer Posting Group";Code [10])
         {
+            TableRelation = "Customer Posting Group";
             CaptionML = ENU = 'Customer Posting Group' , SVE = 'Kundbokföringsmall';
             DataClassification = ToBeClassified;
         }
         field(4;"Vendor Posting Group";Code [10])
         {
+            TableRelation = "Vendor Posting Group";
             CaptionML = ENU = 'Vendor Posting Group' , SVE = 'Leverantörsbokföringsmall';
             DataClassification = ToBeClassified;
         }
