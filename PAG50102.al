@@ -1,4 +1,4 @@
-pageextension 50002 Customer_Card_Net extends "Customer Card" 
+pageextension 50102 Customer_Card_Net extends "Customer Card" 
 {
     layout
     {

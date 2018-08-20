@@ -1,4 +1,4 @@
-tableextension 50000 Customer_Net extends Customer 
+tableextension 50101 Vendor_Net extends Vendor 
 {
     fields
     {
@@ -6,7 +6,7 @@ tableextension 50000 Customer_Net extends Customer
         {
             CaptionML = ENU= 'Netting' , SVE= 'Netting'; 
             Description = 'Netting_Ext';
-        }       
+        }
     }
 }
 

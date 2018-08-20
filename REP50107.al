@@ -1,4 +1,4 @@
-report 50007 "Import Netting Vendor"
+report 50107 "Import Netting Vendor"
 {
     UsageCategory = Tasks;
     // version CHG-9136
@@ -217,7 +217,7 @@ report 50007 "Import Netting Vendor"
         ApplyToDocNo_cod : Code[20];
         NextLineNo_int : Integer;
         PostingDateDate : Date;
-        StenaSetup : Record 50009;
+        StenaSetup : Record 50109;
         Category : Text[30];
         BA005 : TextConst ENU='Enter File Name',SVE='Ange filnamn';
         BA007 : TextConst ENU='All files|*.*|TXT-files (*.txt)|*.txt|WRI-files (*.wri)|*.wri',SVE='Excel-filer (*.csv)|*.csv|TXT-filer (*.txt)|*.txt|Alla filer|*.*';

@@ -1,4 +1,4 @@
-codeunit 50008 "Export Netting"
+codeunit 50108 "Export Netting"
 {
     // version CHG-9136
 
@@ -21,7 +21,7 @@ codeunit 50008 "Export Netting"
     var
         F : File;
         Str : Text[1024];
-        StenaSetup : Record 50009;
+        StenaSetup : Record 50109;
         CompanyInformation : Record 79;
         GeneralLedgerSetup : Record 98;
         Text100 : TextConst ENU='VAT Registration No is missing, customer %1,',SVE='Momsregistreringsnr för kund %1 saknas!';

@@ -1,4 +1,4 @@
-codeunit 50011 NettingSubscriber
+codeunit 50111 NettingSubscriber
 {
     trigger OnRun();
     begin
@@ -7,7 +7,7 @@ codeunit 50011 NettingSubscriber
     [EventSubscriber(ObjectType::Page, 255, 'OnAfterActionEvent', 'Netting Customer', true, true)]    
     procedure CashReceiptImportNetting(var Rec : Record 81);    
     var
-        ImportNetting_loc : Report 50006;
+        ImportNetting_loc : Report 50106;
 
     begin
         ImportNetting_loc.SetGenJnlLine(Rec);
@@ -17,7 +17,7 @@ codeunit 50011 NettingSubscriber
     [EventSubscriber(ObjectType::Page, 256, 'OnAfterActionEvent', 'Netting Vendor', true, true)]    
     procedure PaymentImportNetting(var Rec : Record 81);    
     var
-        ImportNetting_loc : Report 50007;
+        ImportNetting_loc : Report 50107;
 
     begin
         ImportNetting_loc.SetGenJnlLine(Rec);

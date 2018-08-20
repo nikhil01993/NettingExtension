@@ -1,4 +1,4 @@
-table 50009 "Netting Setup"
+table 50109 "Netting Setup"
 {
     DataClassification = ToBeClassified;
     

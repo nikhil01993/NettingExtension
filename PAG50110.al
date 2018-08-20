@@ -1,7 +1,7 @@
-page 50010 "Netting Setup"
+page 50110 "Netting Setup"
 {
     PageType = Card;
-    SourceTable = 50009;
+    SourceTable = 50109;
     UsageCategory = Administration;
 
     layout

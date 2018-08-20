@@ -1,4 +1,4 @@
-report 50006 "Import Netting Customer"
+report 50106 "Import Netting Customer"
 {
     UsageCategory = Tasks;
     // version CHG-9136
@@ -232,7 +232,7 @@ report 50006 "Import Netting Customer"
         ApplyToDocNo_cod : Code[20];
         NextLineNo_int : Integer;
         PostingDateDate : Date;
-        StenaSetup : Record 50009;
+        StenaSetup : Record 50109;
         Category : Text;
         BA005 : Label 'Enter File Name';
         BA007 : Label 'All files|*.*|TXT-files (*.txt)|*.txt|WRI-files (*.wri)|*.wri';

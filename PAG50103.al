@@ -1,4 +1,4 @@
-pageextension 50003 Vendor_Card_Net extends "Vendor Card" 
+pageextension 50103 Vendor_Card_Net extends "Vendor Card" 
 {
     layout
     {
